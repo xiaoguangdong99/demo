@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.example</groupId>
     <artifactId>demo</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
     <name>demo</name>
     <description>Demo project for Spring Boot</description>
 
@@ -43,6 +43,7 @@
                     <!--Dockerfile文件所在目录-->
                     <dockerDirectory>${project.basedir}/src/main/resources</dockerDirectory>
                     <!--TAG,这里用工程版本号-->
+                    <forceTags>true</forceTags>
                     <imageTags>
                         <imageTag>${project.version}</imageTag>
                     </imageTags>
