@@ -47,9 +47,9 @@
                     <imageTags>
                         <imageTag>${project.version}</imageTag>
                     </imageTags>
-                    <registryUrl>127.0.0.1:5000</registryUrl>
+                    <registryUrl>192.168.16.200:5000</registryUrl>
                     <pushImage>true</pushImage>
-                    <imageName>127.0.0.1:5000/${project.artifactId}:${project.version}</imageName>
+                    <imageName>192.168.16.200:5000/${project.artifactId}:${project.version}</imageName>
                     <!--构建镜像的配置信息-->
                     <resources>
                         <resource>
